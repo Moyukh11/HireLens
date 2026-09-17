@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large datasets & models
+ml/data_cleaning/raw/*
+!ml/data_cleaning/raw/.gitkeep
+ml/training/saved_models/*.bin
+ml/training/saved_models/*.pt
+ml/training/saved_models/*.onnx
+ml/training/saved_models/*.safetensors
+!ml/training/saved_models/.gitkeep
+
+# Environment variables
+.env
+.env.local
